@@ -1,0 +1,16 @@
+server:
+  port: 8087
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/world
+    username: root
+    password: 3004
+  jpa:
+    database : mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: create
